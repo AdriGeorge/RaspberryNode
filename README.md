@@ -40,7 +40,7 @@ fileName$: geth --datadir node/ init genesis.json
 Create a new account (you can create as many you want) and save the data
 ```sh
 fileName$: geth --datadir node/ account new
-fileName$: echo 'password' >> node/password.tx
+fileName$: echo 'password' >> node/password.txt
 fileName$: echo 'address' >> accounts.txt
 ```
 Create a sh file to run your node
