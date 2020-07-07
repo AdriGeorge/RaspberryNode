@@ -71,5 +71,5 @@ node$: geth attach geth.ipc
 
 ###  3]  Wait until 50%+1 of signers give you the autorization (clique.propose("address", true))
 
-Now you can interact whit the blockchain from console.
+Now you can interact with the blockchain from console.
 For the full list of command check: <https://ethereum.stackexchange.com/questions/125/how-do-i-set-up-a-private-ethereum-network>
