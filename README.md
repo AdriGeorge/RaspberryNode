@@ -14,6 +14,7 @@ These instructions will allow you to connect to an ethereum private network.
 * Install go-ethereum
 
 ```sh
+pi$: sudo add-apt-repository -y ppa:ethereum/ethereum
 pi$: sudo apt-get update
 pi$: sudo apt-get install ethereum
 ```
@@ -72,4 +73,4 @@ node$: geth attach geth.ipc
 ###  3]  Wait until 50%+1 of signers give you the autorization (clique.propose("address", true))
 
 Now you can interact with the blockchain from console.
-For the full list of command check: <https://ethereum.stackexchange.com/questions/125/how-do-i-set-up-a-private-ethereum-network>
+For the full list of command check: https://ethereum.stackexchange.com/questions/28703/full-list-of-geth-terminal-commands
